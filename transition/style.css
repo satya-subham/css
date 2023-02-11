@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    /* transition: all; */
+    transition-property: background-color, width, height, border-radius;
+    transition-duration: 1s;
+    /* transition-delay: 1s; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: linearss; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-timing-function: cubic-bezier(); */
+}
+
+div:hover{
+    background-color: crimson;
+    width: 300px;
+    height: 300px;
+    /* border-radius: 50%; */
+
+}
